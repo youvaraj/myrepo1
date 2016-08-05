@@ -1,0 +1,7 @@
+package_utils\Logg.class
+package_utils\Configuration.class
+package_pageobjects\SearchResultsPage.class
+package_utils\CommonSetup.class
+package_pageobjects\BasePage.class
+package_utils\WebDriverManager.class
+package_pageobjects\HomePage.class

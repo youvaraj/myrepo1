@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" skipfailedinvocationCounts="false" verbose="0" name="Failed suite [Suite1]" junit="false" annotations="JDK">
+  <parameter name="browser" value="chrome"/>
+  <test name="Regression1(failed)" junit="false" annotations="JDK">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="package_tests.SearchForProductsTest">
+        <methods>
+          <include name="searchForProduct"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
